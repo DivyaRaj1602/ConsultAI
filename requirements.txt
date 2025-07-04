@@ -1,6 +1,7 @@
 # langchain-core
 langchain
 langchain-core
+langchain-community
 
 #OpenAI integration
 langchain-openaI
@@ -8,6 +9,7 @@ openaI
 
 #Anthropic Integration
 langchain-anthropic
+langchain-groq
 
 #google gemini integration
 langchain-google-genai
