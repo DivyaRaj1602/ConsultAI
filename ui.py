@@ -53,7 +53,7 @@ def set_bg(image_file):
 
 
 # Call this with your image path
-set_bg(r"C:\Users\DIVYA\Desktop\LANGCHAIN\ConsultBot\modern-boardroom-ready-meeting_1286777-1867.avif")
+set_bg("modern-boardroom-ready-meeting_1286777-1867.avif")
 
 st.set_page_config(page_title="ConsultBot", layout="wide")
 st.title("🤖 ConsultBot – Your Case Interview Coach")
