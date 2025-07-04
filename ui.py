@@ -1,13 +1,13 @@
 # ui.py
 
 import streamlit as st
-from ConsultBot.prepare_chain import load_prepare_chain
-from ConsultBot.case_prep_chain import load_case_prep_chain, case_prompts
+from prepare_chain import load_prepare_chain
+from case_prep_chain import load_case_prep_chain, case_prompts
 
-from ConsultBot.learning_chain import load_learning_chain
-from ConsultBot.case_example import load_case_examples_chain
-from ConsultBot.llm_file import llm
-from ConsultBot.retriever_setup import prepare_retriever, learning_retriever, case_prep_retriever
+from learning_chain import load_learning_chain
+from case_example import load_case_examples_chain
+from llm_file import llm
+from retriever_setup import prepare_retriever, learning_retriever, case_prep_retriever
 
 # Set background image
 import base64
