@@ -28,4 +28,7 @@ python-dotenv
 numpy
 scikit-learn
 
+faiss-cpu
+
+
 
